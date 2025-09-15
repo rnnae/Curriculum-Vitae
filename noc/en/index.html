@@ -1,1 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="icon" type="image/icon type" href="../../favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            margin: 0;
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+        }
+        .curriculo-container {
+            width: 210mm; /* A4 width */
+            min-height: 297mm; /* A4 height */
+            background-color: white;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 0.5rem;
+        }
+        @media print {
+            body {
+                background-color: white;
+                padding: 0;
+            }
+            .curriculo-container {
+                width: 100%;
+                min-height: auto;
+                box-shadow: none;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-8">
+    <div class="curriculo-container">
+        <!-- Main Content -->
+        <header class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-gray-800">Renan C. Coelho</h1>
+            <p class="text-lg text-gray-600 mt-2">Customer Experience Professional | Computer Engineering Graduate</p>
+        </header>
+
+        <section class="mb-6">
+            <h2 class="text-xl font-semibold border-b-2 border-gray-300 pb-2 text-gray-700">Contact</h2>
+            <ul class="list-none mt-2 text-gray-600">
+                <li class="flex items-center mb-1">
+                    <span class="font-bold mr-2">Phone:</span> <span class="font-semibold text-gray-800">+5521997812185</span>
+                </li>
+                <li class="flex items-center mb-1">
+                    <span class="font-bold mr-2">Email:</span> <span class="font-semibold"><a href="mailto:renanc.coelho18@gmail.com" target="_blank" class="text-indigo-950 hover:underline">renanc.coelho18@gmail.com</a></span>
+                </li>
+                <li class="flex items-center mb-1">
+                    <span class="font-bold mr-2">LinkedIn:</span> <span class="font-semibold"><a href="https://www.linkedin.com/in/renancoelho021" target="_blank" class="text-indigo-950 hover:underline">linkedin.com/in/renancoelho021</a></span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="mb-6">
+            <h2 class="text-xl font-semibold border-b-2 border-gray-300 pb-2 text-gray-700">Professional Summary</h2>
+            <p class="mt-2 text-gray-600 leading-relaxed">
+                23-year-old professional with experience in Service Desk and Data Center Operations, working closely with the NOC (Network Operations Center) team and familiar with monitoring tools (Zabbix, Grafana), incident handling and ticket escalation, giving support for critical infrastructures. Strong background in <span class="font-semibold">Service Management</span> and <span class="font-semibold">Hardware Maintenance</span>, as well as solid knowledge of <span class="font-semibold">Networking</span>, <span class="font-semibold">ITIL</span>, also being Cisco-certified (focused on <span class="font-semibold">CCNA</span> studies) and having a great deal of practical experience with <span class="font-semibold">ServiceNow</span>. I am seeking to consolidate a career in networks, systems operations and/or monitoring, ensuring high service availability and reliability while maintaining the continuity of the operation.
+            </p>
+        </section>
+
+        <section class="mb-6">
+            <h2 class="text-xl font-semibold border-b-2 border-gray-300 pb-2 text-gray-700">Professional Experience</h2>
+            <div class="mb-3 mt-3">
+                <h3 class="font-bold text-lg text-gray-800">Service Desk | Elea Data Centers</h3>
+                <p class="text-sm text-gray-500 italic">March, 2024 - September, 2025 | Rio de Janeiro, Brazil</p>
+                <ul class="list-disc list-inside mt-2 text-gray-600 space-y-1">
+                    <li>Provided comprehensive technical support and troubleshooting for data center clients, ensuring high availability and performance for the operation.</li>
+                    <li>Managed incidents and service requests using <span class="font-semibold">ServiceNow</span>.</li>
+                    <li>Worked closely with the <span class="font-semibold">NOC</span> team, monitoring critical environments through <span class="font-semibold">Zabbix</span> and <span class="font-semibold">Grafana</span>.</li>
+                    <li>Supported incident handling and the escalation process together with telecom operators and vendors.</li>
+                    <li>Participated in network infrastructure maintenance and configuration, working with <span class="font-semibold">Routing</span>, <span class="font-semibold">Switching</span>, and <span class="font-semibold">Cabling</span> concepts.</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-bold text-lg text-gray-800">Help Desk (Intern) | Huawei Brazil</h3>
+                <p class="text-sm text-gray-500 italic">July, 2023 - March, 2024 | Rio de Janeiro, Brazil</p>
+                <ul class="list-disc list-inside mt-2 text-gray-600 space-y-1">
+                    <li>Provided first-level technical support, resolving hardware and software issues for employees.</li>
+                    <li>Managed and escalated support tickets, ensuring quick incident resolution.</li>
+                    <li>Took part in the <span class="font-semibold">Huawei Seeds for the Future</span> program, deepening my knowledge of emerging technologies and diverse cultures.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mb-6">
+            <h2 class="text-xl font-semibold border-b-2 border-gray-300 pb-2 text-gray-700">Education</h2>
+            <ul class="list-disc list-inside mt-2 text-gray-600 space-y-1">
+                <li><span class="font-bold">Computer Engineering</span><br><span class="italic text-sm text-gray-500">Universidade Veiga de Almeida | 2020-2025</span></li>
+                <li><span class="font-bold">High School</span><br><span class="italic text-sm text-gray-500">Centro Educacional Queen | 2017-2019</span></li>
+            </ul>
+        </section>
+
+        <section class="mb-6">
+            <h2 class="text-xl font-semibold border-b-2 border-gray-300 pb-2 text-gray-700">Technical Skills</h2>
+            <ul class="list-disc list-inside mt-2 text-gray-600 space-y-1">
+                <li><span class="font-semibold">NOC:</span> Zabbix, Grafana, Netbox;</li>
+                <li><span class="font-semibold">IT Management:</span> ServiceNow, ITIL (best practices);</li>
+                <li><span class="font-semibold">Programming Languages:</span> Python, JavaScript, C;</li>
+                <li><span class="font-semibold">Web Development:</span> React, Tailwind, Bootstrap;</li>
+                <li><span class="font-semibold">Networking:</span> IPv4, IPv6, Network Security, Crimping (RJ-45);</li>
+                <li><span class="font-semibold">Suites:</span> Microsoft 365, Google Workspace.</li>
+            </ul>
+        </section>
+
+        <section class="mb-6">
+            <h2 class="text-xl font-semibold border-b-2 border-gray-300 pb-2 text-gray-700">Languages</h2>
+            <ul class="list-disc list-inside mt-2 text-gray-600 space-y-1">
+                <li><span class="font-semibold">Portuguese:</span> Native</li>
+                <li><span class="font-semibold">English:</span> Advanced (EF SET C2 Proficient)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="text-xl font-semibold border-b-2 border-gray-300 pb-2 text-gray-700">Certifications</h2>
+            <ul class="list-disc list-inside mt-2 text-gray-600 space-y-1">
+                <li><span class="font-semibold"><a href="https://www.credly.com/badges/9c9f7c12-ad5b-4ae6-b36b-5cb6d383963c/linked_in_profile" target="_blank" class="text-indigo-950 hover:underline">CCNA: Switching, Routing, and Wireless Essentials</a></span> | Cisco</li>
+                <li><span class="font-semibold"><a href="https://www.credly.com/badges/c5f736d2-1881-4533-a419-e858ab0bb2f6/linked_in_profile" target="_blank" class="text-indigo-950 hover:underline">CCNA: Introduction to Networks</a></span> | Cisco</li>
+                <li><span class="font-semibold"><a href="https://www.efset.org/cert/iB688c" target="_blank" class="text-indigo-950 hover:underline">EF SET English Certificate (C2 Proficient)</a></span> | EF SET</li>
+                <li><span class="font-semibold"><a href="https://www.credly.com/badges/e9627fd6-97d5-4eba-8b0f-1460ff2cee90/linked_in_profile" target="_blank" class="text-indigo-950 hover:underline">Data Analytics Essentials</a></span> | Cisco</li>
+                <li><span class="font-semibold"><a href="../../seeds_for_the_future.jpeg" target="_blank" class="text-indigo-950 hover:underline" alt="Huawei Seeds for the Future Program">Huawei Seeds for the Future Program</a></span> | Huawei</li>
+                <li><span class="font-semibold"><a href="https://www.linkedin.com/learning/certificates/9b35dec45325a667674e478c26cf2da126ee8873ac3b62632df4b548a439a889?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B9Z5cHG5vQ0qUEWFIPltcrg%3D%3D" target="_blank" class="text-indigo-950 hover:underline">React Essential Training</a></span> | LinkedIn</li>
+                <li><span class="font-semibold"><a href="../../web-development_advanced.pdf" target="_blank" class="text-indigo-950 hover:underline">Web Programming (Advanced)</a></span> | IFMG</li>
+                <li><span class="font-semibold"><a href="../../front-end_web-development.pdf" target="_blank" class="text-indigo-950 hover:underline">Front-End Web Development</a></span> | IFMG</li>
+                <li><span class="font-semibold"><a href="../../javascript_advanced.pdf" target="_blank" class="text-indigo-950 hover:underline">JavaScript (Advanced)</a></span> | IFMG</li>
+                <li><span class="font-semibold"><a href="../../javascript_basic.pdf" target="_blank" class="text-indigo-950 hover:underline">JavaScript (Basic)</a></span> | IFMG</li>
+                <li><span class="font-semibold"><a href="../../learning_with_python.pdf" target="_blank" class="text-indigo-950 hover:underline">Learning with Python</a></span> | Enap</li>
+                <li><span class="font-semibold"><a href="../../application_of_power_bi_for_management_improvement.pdf" target="_blank" class="text-indigo-950 hover:underline">Applying Power BI for Management Improvement</a></span> | Enap</li>
+                <li><span class="font-semibold"><a href="../../scrum_in_the_context_of_public_service.pdf" target="_blank" class="text-indigo-950 hover:underline">Scrum in the Context of Public Service</a></span> | Enap</li>
+                <li><span class="font-semibold"><a href="../../the_role_of_devops_in_the_digital_transformation_of_public_services.pdf" target="_blank" class="text-indigo-950 hover:underline">The Role of DevOps in the Digital Transformation of Public Services</a></span> | Enap</li>
+                <li><span class="font-semibold"><a href="../../operador_e_programador_de_sistemas_automatizados.pdf" target="_blank" class="text-indigo-950 hover:underline">Automated Systems Operator and Programmer - Initial PLC Practices</a></span> | IFMG</li>
+                <li><span class="font-semibold"><a href="https://www.credly.com/badges/b073c2e8-6d30-4a67-8957-6a4433b6b518/linked_in_profile" target="_blank" class="text-indigo-950 hover:underline">Linux Unhatched</a></span> | Cisco</li>
+                <li><span class="font-semibold"><a href="https://www.credly.com/badges/33c88dd6-845e-40bf-9159-be8f24aabb8d/linked_in_profile" target="_blank" class="text-indigo-950 hover:underline">IT Customer Support Basics</a></span> | Cisco</li>
+                <li><span class="font-semibold"><a href="../../curso_basico_de_ipv6.png" target="_blank" class="text-indigo-950 hover:underline" alt="Basic IPv6 Course - Online">Basic IPv6 Course - Online</a></span> | NIC.br</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
 
