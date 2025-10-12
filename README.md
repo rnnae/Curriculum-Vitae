@@ -21,7 +21,7 @@ The setup emphasizes simplicity, maintainability, and performance.
 - [NOC Resume PDF (en-US)](https://cv-renan.pages.dev/en/noc/resume.pdf)
 
 ## Directory Structure
-/
+/v
 ├── index.html # Main resume (PT-BR)
 ├── en/ # English version
 ├── noc/ # NOC-focused resume (PT-BR)
