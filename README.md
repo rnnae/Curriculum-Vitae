@@ -22,14 +22,12 @@ The setup emphasizes simplicity, maintainability, and performance.
 
 ## Directory Structure
 /
-
 ├── index.html # Main resume (PT-BR)
-
 ├── en/ # English version
-
 ├── noc/ # NOC-focused resume (PT-BR)
-
 └── en/noc/ # NOC-focused resume (EN)
+
+
 
 
 That's all, folks! :)
