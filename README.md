@@ -1,3 +1,4 @@
+
 # Online Resume Website
 This repository contains the source code for my online resume.  
 The project is minimal, fast, and fully responsive — designed to ensure consistent rendering across devices and screen sizes.
@@ -21,9 +22,13 @@ The setup emphasizes simplicity, maintainability, and performance.
 
 ## Directory Structure
 /
+
 ├── index.html # Main resume (PT-BR)
+
 ├── en/ # English version
+
 ├── noc/ # NOC-focused resume (PT-BR)
+
 └── en/noc/ # NOC-focused resume (EN)
 
 
