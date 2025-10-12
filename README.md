@@ -1,4 +1,3 @@
-‎ <br>
 # Online Resume
 This repository contains the source code for my online resume. The project is minimal, fast, and fully responsive, it was designed to ensure consistent rendering across devices and screen sizes.‎
 <br><br>
